@@ -39,12 +39,12 @@ This platform addresses key challenges faced by Kenyan smallholder farmers by pr
   - Fertilizer application and soil health
   - Crop rotation and sustainable practices
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 **Frontend:**
 - React.js with Functional Components & Hooks
 - React Router for single-page navigation
-- Tailwind CSS for responsive styling
+- CSS for responsive styling
 - Context API for state management
 
 **Backend:**

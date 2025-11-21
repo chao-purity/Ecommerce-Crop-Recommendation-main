@@ -1,0 +1,42 @@
+.newsletter {
+    width: 65%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 40px; /* Added padding */
+    margin-top: 40px; /* Added margin from the top */
+    margin-bottom: 30px;
+    background: linear-gradient(180deg, #aaffb2, #fde1ff);
+    text-align: center; /* Center-align text */
+}
+
+.newsletter h2 {
+    color: #171717;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px; /* Adjusted margin */
+}
+
+.newsletter p {
+    color: #171717;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.newsletter button {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: auto; /* Pushes button to the bottom */
+    margin-bottom: 20px; /* Added margin */
+    cursor: pointer;
+}

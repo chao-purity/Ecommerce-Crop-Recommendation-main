@@ -1,0 +1,120 @@
+.add-product{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 15px 15px;
+    border-radius: 6px;
+    background: white;
+}
+.addproduct-itemfield{
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 16px;
+}
+.addproduct-itemfield input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    color: #7b7b7b;
+    font-family: "Poppins";
+    font-size: 14px;
+
+}
+.addproduct-price{
+    display: flex;
+    gap: 40px;
+    display: flex; /* Make the container a flexbox */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .addproduct-itemfield {
+    flex: 1; /* Make each itemfield take up half the space */
+  }
+.addproduct-selector{
+    padding: 10px;
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    color: #7b7b7b;
+    border: 1px solid #7b7b7b8d;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.addproduct-variety {
+    display: flex; /* Make the sub-container a flexbox for horizontal arrangement */
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 10px; /* Add some margin below for separation */
+  }
+  .addproduct-thumbnail-img {
+    display: block;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .addproduct-variety-btn{
+    margin-left: 1em; /* Add some space between input and button */
+    padding: 0.5em 1em; /* Add padding to the button */
+    background-color: #4CAF50; /* Green color for the button */
+    color: white; /* White text color */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add some rounded corners */
+    cursor: pointer; /* Change cursor style to indicate clickability */
+  }
+  .variety-item-btn{
+    margin-left: 1em; /* Maintain space between variety text */
+    padding: 0.2em 0.5em; /* Adjust padding for spacing around 'X' */
+    background-color: #f44336; /* Red color for the button */
+    color: white; /* White text color */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add some rounded corners */
+    cursor: pointer; /* Change cursor style to indicate clickability */
+  }
+  
+  .variety-list {
+    /* Assuming you want a styled list for varieties */
+    list-style: circle; 
+    padding: 0; 
+    margin: 0; 
+    border: none; 
+  }
+  
+  .variety-item {
+    /* Style each variety item */
+    margin-bottom: 0.5em; /* Add some space between each variety item */
+    padding: 0.5em 1em; /* Add some padding inside each item */
+    border-bottom: 1px solid #eee; /* Add a thin border between items */
+    display: flex; /* Arrange variety text and button horizontally */
+    align-items: center; /* Vertically align content in the center */
+  }
+
+  .remove-variety-button {
+    margin-left: 1em; /* Maintain space between variety text */
+    background-color: transparent; /* Remove default button background */
+    color: #0e6218; /* Red color for the 'X' */
+    border: none; /* Remove default button border */
+    font-size: 1.2em; /* Increase font size for a larger 'X' */
+    font-weight: bold; /* Make the 'X' bolder */
+    cursor: pointer; /* Change cursor style to indicate clickability */
+  }
+  .addproduct-btn{
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    background: #6079ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+  }

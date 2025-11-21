@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+    height: 15vh;
+}
+.nav-logo {
+    width: 17%; /* Set image width to 20% of screen width */
+    height: 25vh; /* Maintain aspect ratio */
+  }
+
+  .nav-profile {
+    width: 20000px; /* Set image width to 2 pixels */
+    height: 20000px;  /* Maintain aspect ratio (adjust proportionally if needed) */
+  }
+  
